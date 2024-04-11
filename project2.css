@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+}
+body {
+    font-family:"outfit";
+    background-color:#000816;
+    color: white;
+    width: 100%;  
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+
+h1,h2,h3,h4.h5,h6
+{
+    font-family: "Outfit", sans-serif;
+}
+p
+{
+    line-height: 1.7;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.hero-content container flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img{
+    margin-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+}
+.telephone a{
+display: flex;
+justify-content: center;
+
+}
+.hero
+{
+    background: #000816;
+   color: #fff;
+}
+.container
+{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    display: flex;
+    font-size: 20px;
+    gap: 25px;
+}
+nav ul li img{
+    height: 24px;
+    width: 24px;
+}
+nav a
+{
+
+    color: #fff;
+}
+.btn
+{
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: #fff;
+    
+}
+.hero-left h1
+{
+    font-size: 64px;
+
+}
+.btn1
+{
+    background: #003BA4;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: #000816 solid 2px;
+    border-radius: 15px;
+}  
+.box{
+    background-color: #1A212E;
+    color: gray;
+    width: 200px;
+    height: 103px;
+    border: #000816 solid 2px;
+    border-radius: 16px;
+    padding: 25px;
+    display: block;
+} 
+
+.mainbox{
+    margin-top: 20px;
+    gap: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.bluebanner{
+    background-color: rgba(0, 0, 255, 0.598);
+    width: 100%;
+    height: 156px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bluebanner img{
+    padding: 20px;
+}
+.bluebanner .icons{
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+}
+.previous-work{
+    background-color:#000816;
+}
+.growth{
+   
+    background-color: white;
+    width: 100%;
+    max-width: 1280px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    
+}
+.growth h3{
+    color: gray;
+    font-weight:400;
+    font-family: "inter";
+}
+.growth h1{
+    font-family: "inter";
+}
+.growth .content{
+   
+    
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col{
+    border:white 2px solid;
+    height: 320px;
+    width: 320px;
+
+}
+
+.last{
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+.last img{
+    margin-left: 5px;
+    
+}
+.growth .content .one{
+    
+    background-color: #F0F5FF;
+}
+
+.growth .content .three{
+    background-color: #F0F5FF;
+}
+ 
+
+header {
+    background-color:#000816;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-heading {
+    font-family: "Outfit";
+    font-size: 24px;
+}
+
+.previous-work {
+    padding: 20px;
+    text-align: center;
+}
+
+.previous-work h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.work-gallery {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-item {
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box; 
+}
+
+
+.work-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.view-more-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    
+   
+}
+
+.view-more-btn img{
+    
+    
+    height: 24px;
+    width: 24px;
+}
+
+
+
+
+.testimonial-container {
+   
+    background-color:#F0F5FF;
+    color: #000816;
+    padding: 30px;
+    gap: 20px;
+    
+    
+    
+    
+
+}
+
+.testimonial-container .thead{
+ 
+ text-align: center;
+ padding: 20px;
+}
+.thead h3{
+    color: grey;
+}
+.testimonial-container .content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 32px;
+}
+
+
+.testimonial-box {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+.testimonial {
+    text-align: center;
+    
+}
+
+.testimonial-text {
+    color: black;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.testimonial-authors {
+    font-weight: bold;
+}
+
+
+
+
+.footer {
+    background-color:#000816;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.company-name {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    margin-right: 10px;
+    list-style: none
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.footer-column h3 {
+    font-family: "inter";
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    font-family: "inter";
+    list-style-type: none;
+    padding: 0;
+    line-height:200%
+    
+}
+ 
+.footer-column ul li{
+    font-family: "inter";
+}
+
+.footer-column ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.email-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+   
+  }
+   input{
+    text-align: center;
+   }
+
+  .email-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000816;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    background-color: #001942;
+  }
+
+.email-container img{
+    position: absolute;
+    left: 16px;
+
+}
+
+  .send-button {
+    width: auto;
+    height: 37px;
+    position:absolute;
+    right: 6px;
+    background-color: #007bff;
+    color: #fff;
+
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
